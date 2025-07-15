@@ -1,0 +1,17 @@
+[project]
+name = "sum-med"
+version = "0.1.0"
+description = "Add your description here"
+readme = "README.md"
+requires-python = ">=3.8"
+dependencies = [
+    "bert-score>=0.3.13",
+    "datasets==2.0.0",
+    "ipykernel>=6.29.5",
+    "nltk>=3.9.1",
+    "pandas==1.5.2",
+    "protobuf>=5.29.5",
+    "sacrebleu>=2.5.1",
+    "torch==2.0.0",
+    "wandb>=0.21.0",
+]
